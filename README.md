@@ -13,7 +13,7 @@ The html file can be found at: [Eviction Reports assets](https://github.com/real
 
 In src/Controller/EvicitionReportController.php you will find the route for the page with an example hero $params to get you started.
 
-The main entrypoint for this template can be found in templates/eviction-reports/index.html.twig
+The main entrypoint for this template can be found in templates/eviction_report/index.html.twig
 
 This template is pretty barebones and includes an example hero section. You will need to create the rest of the page using twig.
 
