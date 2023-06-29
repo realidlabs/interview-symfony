@@ -1,0 +1,14 @@
+{# {{ dump(hero) }} #}
+<section class="hero">
+	<div class="sitewrapper">
+		<div class="flLeft hero-left">
+			<h1>{{ hero.title }}</h1>
+			<h4>{{ hero.subtitle }}</h4>
+			<p>{{ hero.body|raw }}</p>
+		</div>
+		<div class="flRight hero-right">
+			<div class="heroimg"><img src="{{ hero.image }}" title="">
+			</div>
+		</div>
+	</div>
+</section>
